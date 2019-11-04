@@ -1,0 +1,265 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatright{
+	float: right;
+}
+.header-area {
+	background-color: #fff;
+	position: fixed;
+	height: 69px;;
+	width: 100%;
+}
+
+.header-area:hover {
+	background-color: #7f8fa6;
+	transition: 2s;
+	
+}
+.name h1{
+	letter-spacing: 2px;
+	color: #444;
+	margin-top: 10px;
+    margin-left: 50px;
+    font-family: lato;
+    font-size: 34px;
+}
+
+.nav{
+	margin-top: 10px;
+}
+.nav a{
+
+	padding: 10px 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.nav a:hover{
+	color: #353b48;
+	border:1px solid;
+	border-radius: 10px;
+}
+
+.img-text{
+	opacity: .80;
+	width: 441px;
+	text-align: right;
+	font-family: lato;
+	color: #fff;
+	margin-left: 30px;
+	margin-top: -300px;
+
+}
+.img-text h3{
+	
+	position: absolute;
+	border-bottom: 3px solid #fff;
+}
+
+.font-awesome{
+
+	margin-left: 30px;
+	margin-top: 120px;
+}
+.font-awesome i{
+	margin-left: 5px;
+	border-radius: 100%;
+	background-color: gray;
+	transition: 1s;
+	font-size: 20px;
+	padding: 10px;
+}
+.font-awesome i:hover{
+	transform: scale(1.2);
+}
+
+.font-awesome a{
+	color: #fff;
+}
+
+.font-awesome a:hover{
+	color: #1D3400;
+}
+
+
+.slide{
+
+	height:700px;
+}
+.slide-text h1{
+	color: gray;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.intersted{
+	position: inherit;
+	height: 700px;
+	background-color:#F3F3F3;
+}
+
+.interest-text{
+
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+
+.int-font {
+	margin-top: -20px;
+	margin-left: -100px;
+}
+.int-font i{
+	font-size: 51px;
+	color: black;
+	padding-top: 20px;
+	text-align: center;
+	border-radius: 100%;
+	margin-top: 100px;
+	margin-left: 300px;
+	
+	height: 100px;
+	width: 100px;
+	background-color:#ecf0f1;
+}
+
+.text {
+	margin-left: 200px;
+	margin-top: -190px;
+
+}
+
+.text h1, .text h2, .text h3, .text h4, .text h5, .text h6{
+	font-size: 30px;
+	float: left;
+}
+
+.text h4, .text h5, .text h6{
+	margin-top: 160px;
+}
+
+.text h1{
+	margin-left: 10px;
+}
+.text h2{
+	margin-left: 300px;
+}
+
+.text h3{
+	margin-left: 280px;
+}
+
+.text h4{
+	margin-left: 10px;
+}
+.text h5{
+	margin-left: 279px;
+}
+
+.text h6{
+	margin-left: 323px;
+}
+
+
+.contact-from {
+	position: relative;
+	height: 700px;
+}
+.contact-from{
+	position: inherit;
+	background: #796b7b; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #796b7b 0%, #36697d 50%, #7f6b7b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #796b7b 0%,#36697d 50%,#7f6b7b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #796b7b 0%,#36697d 50%,#7f6b7b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#796b7b', endColorstr='#7f6b7b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.from-area{
+
+	position: inherit;
+	margin-top: 80px; 
+	background-color: #54647d;
+}
+
+.from-area h1{
+	letter-spacing: 5px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.form-control {
+	margin-top: 20px;
+	background: none;
+}
+
+.from-area button{
+	outline: none;
+	border-radius: 20px;
+	border: none;
+    height: 40px;
+    width: 121px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    margin-bottom: 20px;
+}
+.from-area button:hover{
+	border-radius: 20px;
+	border: none;
+    height: 40px;
+    width: 121px;
+    background-color: #48dbfb;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.foter-area{
+	background-color: #F3F3F3;
+	height: 50px;
+}
+
+.foter-area p{
+	padding-top: 10px;
+	text-align: center;
+}
+.floatright i{
+	background-color: #444;
+    padding: 12px 16px;
+    float: right;
+    margin-right: 104px;
+    margin-top: -45px;
+    color: #fff;
+}
+
+.floatright i:hover{
+	background-color: #48dbfb;
+    padding: 12px 16px;
+    float: right;
+    margin-right: 104px;
+    margin-top: -45px;
+    color: #fff;
+}
+
+
+
+
+.map-area{
+	margin-top: 30px;
+
+}
+
+
